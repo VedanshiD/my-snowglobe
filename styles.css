@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    color: #162d4f;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.globe-card {
+
+}
+#musicrec {
+    font-style: italic;
+}
+.tagline {
+    background: #61adc4;
+    padding: 30px;
+    color: #162d4f;
+}
