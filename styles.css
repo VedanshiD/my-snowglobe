@@ -1,6 +1,13 @@
+/*color palette to copy and paste
+dark blue: #61adc4
+light blue: #acd3e6
+white: #ffffff
+light pink: #f678a7
+dark pink: #e64072
+navy: #162d4f
+*/
 body {
     margin: 0;
-    color: #162d4f;
     background-image: url(background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -18,8 +25,28 @@ body {
 #musicrec {
     font-style: italic;
 }
-.tagline {
+.ticker1 {
+    padding: 10px;
+    color: #e64072;
+}
+.ticker {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+.ticker-track {
     background: #61adc4;
     padding: 30px;
     color: #162d4f;
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+    font-size: 40px;
+}
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
